@@ -1,2 +1,3 @@
 FROM centos:latest
-RUN touch /etc/tim-was-here
+RUN yum update -y
+RUN yum install -y curl
